@@ -1,0 +1,71 @@
+#pythonrelated
+raderad
+venv
+migrations
+__pycache__
+/venv/*
+.idea
+.idea/
+.vscode
+*.pdf
+/migrations/*
+*-secret.yaml
+/__pycache__/*
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/labb13.iml
+.idea/misc.xml
+
+#vagrant related
+.vagrant
+.vagrant.d
+*.bak
+
+# terraform related
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.box
+*.auto.tfvars
+
+
+# packer related
+*.auto.pkrvars.hcl
+packer_cache
